@@ -25,7 +25,7 @@ body {
 }
 
 .input-field {
-  width: 80%;
+  width: 83%;
   height: 30px;
   border: 1px solid burlywood;
   border-radius: 5px;
@@ -55,6 +55,7 @@ body {
   color: red;
   padding-right: 5px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .form {
