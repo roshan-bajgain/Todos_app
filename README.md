@@ -59,6 +59,8 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Todo App <a name="about-project"></a>
 
+![screenshot](./screenshot.png)
+
 ## 🛠 Built With <a name="built-with">HTML, CSS and Javascript</a>
 
 
