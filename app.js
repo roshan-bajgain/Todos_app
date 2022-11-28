@@ -1,7 +1,7 @@
 const input = document.querySelector(".input-field");
 const btn = document.querySelector(".btn");
 const todoList = document.querySelector(".list")
-// const clearbtn = document.querySelector(".btns")
+const clearbtn = document.querySelector(".btns")
 
 // If user click on the add btn
 btn.onclick = () => {
@@ -27,7 +27,7 @@ function showtask(){
     let newLi = '';
     listArr.forEach((element,index) => {
         newLi += `<li>
-                ${element} <span><i class="fa fa-trash" aria-hidden="true"></i></span>
+                ${element} <span onclick="deletetask(${index})";><i class="fa fa-trash" aria-hidden="true"></i></span>
             </li>`
     });
     todoList.innerHTML= newLi;
@@ -36,4 +36,19 @@ function showtask(){
 showtask();
 
 //deleting the task function
+function deletetask(index){
+    let getlocalStorage = localStorage.getItem("New Todo");
+    listArr = JSON.parse(getlocalStorage);
+    listArr.splice(index, 1); //delete or remove one item from particular li
+    //After removing the list array update local storage again
+    localStorage.setItem("New Todo", JSON.stringify(listArr));
+    showtask();
+}
 
+clearbtn.onclick = ()=> {
+    let getlocalStorage = localStorage.getItem("New Todo");
+    listArr = JSON.parse(getlocalStorage);
+    listArr = [];
+    localStorage.setItem("New Todo", JSON.stringify(listArr));
+    showtask();
+}

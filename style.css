@@ -80,6 +80,7 @@ body {
   color: black;
   font-size: 15px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 input[type=text] {
