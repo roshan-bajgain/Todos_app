@@ -70,7 +70,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://inspiring-lebkuchen-150cfd.netlify.app)
 
 <!-- GETTING STARTED -->
 
