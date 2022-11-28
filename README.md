@@ -107,7 +107,7 @@ Example commands:
 
 ### Install
 
-Install this project with:
+Install this project with: `git clone` `git@github.com:roshan-bajgain/Todos_app.git`
 
 <!--
 Example command:
@@ -121,6 +121,7 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
+`run the live server`
 
 <!--
 Example command:
@@ -130,21 +131,10 @@ Example command:
 ```
 --->
 
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: `Netlify`
 
 <!--
 Example:
@@ -154,7 +144,6 @@ Example:
 ```
  -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
