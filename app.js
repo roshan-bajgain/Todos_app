@@ -1,9 +1,10 @@
 const input = document.querySelector(".input-field");
 const btn = document.querySelector(".btn");
 const todoList = document.querySelector(".list")
+// const clearbtn = document.querySelector(".btns")
 
 // If user click on the add btn
-btn.onclick = (e) => {
+btn.onclick = () => {
     let userdata = input.value;
     let getlocalStorage = localStorage.getItem("New Todo"); //getting local storage
     if(getlocalStorage == null) { //if local storage is null
