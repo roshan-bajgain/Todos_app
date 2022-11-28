@@ -24,6 +24,8 @@ function showtask(){
     }else {
         listArr = JSON.parse(getlocalStorage);
     }
+    const pendinglist = document.querySelector(".pending");
+    pendinglist.textContent = listArr.length; // counting the list array and displaying
     let newLi = '';
     listArr.forEach((element,index) => {
         newLi += `<li>
@@ -52,3 +54,4 @@ clearbtn.onclick = ()=> {
     localStorage.setItem("New Todo", JSON.stringify(listArr));
     showtask();
 }
+
