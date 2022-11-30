@@ -96,7 +96,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository: `git clone` `git@github.com:roshan-bajgain/Todos_app.git`
 
 <!--
 Example commands:
@@ -109,7 +109,7 @@ Example commands:
 
 ### Install
 
-Install this project with: `git clone` `git@github.com:roshan-bajgain/Todos_app.git`
+Install this project with: `npm install`
 
 <!--
 Example command:
